@@ -1,4 +1,8 @@
+// components/Header.tsx
+
 import React from 'react';
+// 1. ADICIONA ESTA LINHA: Importa a imagem como uma variável
+import logoImage from './logo.png'; 
 
 export const Header: React.FC = () => {
     return (
@@ -6,7 +10,9 @@ export const Header: React.FC = () => {
             <div className="container mx-auto px-4 py-3">
                 <a href="/" className="flex flex-col md:flex-row items-center justify-center no-underline" aria-label="Página Inicial">
                     <img
-                        src="/logo.png"
+                        // 2. ALTERA ESTA LINHA: 
+                        // Muda de src="/logo.png" para src={logoImage}
+                        src={logoImage}
                         alt="Logo Gestão Sustentável Manguezais de Igarassu"
                         className="h-14 w-auto mb-2 md:mb-0 md:mr-4"
                     />
