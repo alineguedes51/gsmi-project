@@ -5,9 +5,9 @@ import { WeekSelection as WeekSelectionEnum } from '../types';
 
 // Dados definidos manualmente para a "Semana Anterior"
 const previousWeekData: PhDataPoint[] = [
-    { day: 'Seg', ph: 7.2 },
+    { day: 'Seg', ph: 7.0 },
     { day: 'Ter', ph: 7.1 },
-    { day: 'Qua', ph: 7.3 },
+    { day: 'Qua', ph: 7.0 },
     { day: 'Qui', ph: 7.1 },
     { day: 'Sex', ph: 6.9 },
 
@@ -15,11 +15,11 @@ const previousWeekData: PhDataPoint[] = [
 
 // Dados definidos manualmente para a "Semana Atual"
 const currentWeekData: PhDataPoint[] = [
-    { day: 'Seg', ph: 7.0 },
-    { day: 'Ter', ph: 7.2 },
-    { day: 'Qua', ph: 7.5 },
-    { day: 'Qui', ph: 7.1 },
-    { day: 'Sex', ph: 7.4 },
+    { day: 'Seg', ph: 7.1 },
+    { day: 'Ter', ph: 7.0 },
+    { day: 'Qua', ph: 7.0 },
+    { day: 'Qui', ph: 6.9 },
+    { day: 'Sex', ph: 7.0 },
 
 ];
 
