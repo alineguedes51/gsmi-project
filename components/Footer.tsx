@@ -1,9 +1,9 @@
 import React from 'react';
 
-// Ícone de Envelope (E-mail) para substituir o do Instagram
-const EmailIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+// Ícone do Gmail
+const GmailIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
   </svg>
 );
 
@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
             <div className="flex justify-center gap-6 mt-3">
                 {/* O LINK FOI ALTERADO AQUI: De https para mailto */}
                 <a href="mailto:gsmigarassu@gmail.com" aria-label="E-mail" className="hover:opacity-75 transition-opacity">
-                  <EmailIcon />
+                  <GmailIcon />
                 </a>
             </div>
         </div>
